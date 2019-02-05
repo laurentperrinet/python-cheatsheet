@@ -1462,10 +1462,10 @@ Plot
 ----
 ```python
 # $ pip3 install matplotlib
-from matplotlib import pyplot
-pyplot.plot(<data_1> [, <data_2>, ...])
-pyplot.savefig(<filename>, transparent=True)
-pyplot.show()
+from matplotlib import pyplot as plt
+plt.plot(<data_1> [, <data_2>, ...])
+plt.savefig(<filename>, transparent=True)
+plt/.show()
 ```
 
 
